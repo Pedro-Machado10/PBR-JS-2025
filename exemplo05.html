@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste 05 </title>
+
+    <style>
+        * {
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .cartao {
+            border: 1px solid #a2aaaa;
+            margin: 2px auto;
+            width: 12rem;
+            height: 14rem;
+            box-shadow: #a2a;
+            border-radius: 0.5rem;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cartao">
+
+        <script>
+
+            /*
+            * Estrutura sequencial 
+            * Comando de saida 
+            * Comando de Entrada
+            * Template string e interpolação
+            * */
+
+            document.write("Olá Mundo");
+
+            var produto = prompt("Infomre o nome do Produto"); 
+            var descricao = prompt("Informe a descrição do produto:");
+            var preco = prompt("Informe o preço do produto:");
+
+
+            document.write(` <img src= "" alt='Logo supermercado.'>${produto}`);
+            document.write(` <h1 class="titulo">${produto}</h1>`); 
+            document.write(` <article class="descricao">${produto}<article/>`); 
+            document.write(` <aside class="preco">${produto}<aside/>`); 
+
+            
+
+        </script>
+
+    </div>
+</body>
+
+</html>
